@@ -1,0 +1,23 @@
+{
+  "name": "trading-agent",
+  "version": "1.0.0",
+  "description": "Trading agent",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduDorus/trading-agent.git"
+  },
+  "author": "Dorus Janssens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduDorus/trading-agent/issues"
+  },
+  "homepage": "https://github.com/eduDorus/trading-agent#readme",
+  "dependencies": {
+    "bitfinex-api-node": "^2.0.0-beta",
+    "rxjs": "^5.5.6"
+  }
+}
