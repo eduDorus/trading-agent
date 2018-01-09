@@ -182,7 +182,7 @@ def main():
 	cur_state = env.reset()
 	action = env.action_space.sample()
 	while True:
-		env.render()
+		#env.render()
 		cur_state = cur_state.reshape((1, env.observation_space.shape[0]))
 		action = actor_critic.act(cur_state)
 		action = action.reshape((1, env.action_space.shape[0]))
